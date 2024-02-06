@@ -18,6 +18,14 @@
 		9155E2AB2B727E4D00C13257 /* RTCFingerprintModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 9155E2A92B727E4D00C13257 /* RTCFingerprintModule.m */; };
 		9155E2B22B7285B200C13257 /* FPDiOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 9155E2B02B7285B200C13257 /* FPDiOS.m */; };
 		9155E2B32B7285B200C13257 /* FPDiOS.m in Sources */ = {isa = PBXBuildFile; fileRef = 9155E2B02B7285B200C13257 /* FPDiOS.m */; };
+		9155E2B62B728D9900C13257 /* INTULocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9155E2B42B728D9900C13257 /* INTULocationManager.m */; };
+		9155E2B72B728D9900C13257 /* INTULocationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 9155E2B42B728D9900C13257 /* INTULocationManager.m */; };
+		9155E2C02B728DE600C13257 /* INTUHeadingRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9155E2B82B728DE600C13257 /* INTUHeadingRequest.m */; };
+		9155E2C12B728DE600C13257 /* INTUHeadingRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9155E2B82B728DE600C13257 /* INTUHeadingRequest.m */; };
+		9155E2C22B728DE600C13257 /* INTURequestIDGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9155E2BD2B728DE600C13257 /* INTURequestIDGenerator.m */; };
+		9155E2C32B728DE600C13257 /* INTURequestIDGenerator.m in Sources */ = {isa = PBXBuildFile; fileRef = 9155E2BD2B728DE600C13257 /* INTURequestIDGenerator.m */; };
+		9155E2C42B728DE600C13257 /* INTULocationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9155E2BF2B728DE600C13257 /* INTULocationRequest.m */; };
+		9155E2C52B728DE600C13257 /* INTULocationRequest.m in Sources */ = {isa = PBXBuildFile; fileRef = 9155E2BF2B728DE600C13257 /* INTULocationRequest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +59,16 @@
 		9155E2A92B727E4D00C13257 /* RTCFingerprintModule.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = RTCFingerprintModule.m; path = iosmodules/RTCFingerprintModule.m; sourceTree = "<group>"; };
 		9155E2B02B7285B200C13257 /* FPDiOS.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FPDiOS.m; sourceTree = "<group>"; };
 		9155E2B12B7285B200C13257 /* FPDiOS_ObjC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FPDiOS_ObjC.h; sourceTree = "<group>"; };
+		9155E2B42B728D9900C13257 /* INTULocationManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INTULocationManager.m; path = iosmodules/INTULocationManager.m; sourceTree = "<group>"; };
+		9155E2B52B728D9900C13257 /* INTULocationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INTULocationManager.h; path = iosmodules/INTULocationManager.h; sourceTree = "<group>"; };
+		9155E2B82B728DE600C13257 /* INTUHeadingRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INTUHeadingRequest.m; path = iosmodules/INTUHeadingRequest.m; sourceTree = "<group>"; };
+		9155E2B92B728DE600C13257 /* INTULocationRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INTULocationRequest.h; path = iosmodules/INTULocationRequest.h; sourceTree = "<group>"; };
+		9155E2BA2B728DE600C13257 /* INTUHeadingRequest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INTUHeadingRequest.h; path = iosmodules/INTUHeadingRequest.h; sourceTree = "<group>"; };
+		9155E2BB2B728DE600C13257 /* INTURequestIDGenerator.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INTURequestIDGenerator.h; path = iosmodules/INTURequestIDGenerator.h; sourceTree = "<group>"; };
+		9155E2BC2B728DE600C13257 /* INTULocationRequestDefines.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = INTULocationRequestDefines.h; path = iosmodules/INTULocationRequestDefines.h; sourceTree = "<group>"; };
+		9155E2BD2B728DE600C13257 /* INTURequestIDGenerator.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INTURequestIDGenerator.m; path = iosmodules/INTURequestIDGenerator.m; sourceTree = "<group>"; };
+		9155E2BE2B728DE600C13257 /* INTULocationManager+Internal.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "INTULocationManager+Internal.h"; path = "iosmodules/INTULocationManager+Internal.h"; sourceTree = "<group>"; };
+		9155E2BF2B728DE600C13257 /* INTULocationRequest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = INTULocationRequest.m; path = iosmodules/INTULocationRequest.m; sourceTree = "<group>"; };
 		ED297162215061F000B7C4FE /* JavaScriptCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = JavaScriptCore.framework; path = System/Library/Frameworks/JavaScriptCore.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
@@ -104,6 +122,16 @@
 				9155E2B02B7285B200C13257 /* FPDiOS.m */,
 				9155E2A82B727CD400C13257 /* RCTFingerprintModule.h */,
 				9155E2A92B727E4D00C13257 /* RTCFingerprintModule.m */,
+				9155E2BA2B728DE600C13257 /* INTUHeadingRequest.h */,
+				9155E2B82B728DE600C13257 /* INTUHeadingRequest.m */,
+				9155E2BE2B728DE600C13257 /* INTULocationManager+Internal.h */,
+				9155E2B92B728DE600C13257 /* INTULocationRequest.h */,
+				9155E2BF2B728DE600C13257 /* INTULocationRequest.m */,
+				9155E2BC2B728DE600C13257 /* INTULocationRequestDefines.h */,
+				9155E2BB2B728DE600C13257 /* INTURequestIDGenerator.h */,
+				9155E2BD2B728DE600C13257 /* INTURequestIDGenerator.m */,
+				9155E2B52B728D9900C13257 /* INTULocationManager.h */,
+				9155E2B42B728D9900C13257 /* INTULocationManager.m */,
 			);
 			name = iosmodules;
 			sourceTree = "<group>";
@@ -396,7 +424,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9155E2C32B728DE600C13257 /* INTURequestIDGenerator.m in Sources */,
+				9155E2B72B728D9900C13257 /* INTULocationManager.m in Sources */,
+				9155E2C12B728DE600C13257 /* INTUHeadingRequest.m in Sources */,
 				9155E2AB2B727E4D00C13257 /* RTCFingerprintModule.m in Sources */,
+				9155E2C52B728DE600C13257 /* INTULocationRequest.m in Sources */,
 				9155E2B32B7285B200C13257 /* FPDiOS.m in Sources */,
 				00E356F31AD99517003FC87E /* iosmodulesTests.m in Sources */,
 			);
@@ -406,8 +438,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9155E2C02B728DE600C13257 /* INTUHeadingRequest.m in Sources */,
+				9155E2B62B728D9900C13257 /* INTULocationManager.m in Sources */,
+				9155E2C42B728DE600C13257 /* INTULocationRequest.m in Sources */,
 				9155E2B22B7285B200C13257 /* FPDiOS.m in Sources */,
 				9155E2AA2B727E4D00C13257 /* RTCFingerprintModule.m in Sources */,
+				9155E2C22B728DE600C13257 /* INTURequestIDGenerator.m in Sources */,
 				13B07FBC1A68108700A75B9A /* AppDelegate.mm in Sources */,
 				13B07FC11A68108700A75B9A /* main.m in Sources */,
 			);

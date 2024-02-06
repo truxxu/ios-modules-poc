@@ -1,5 +1,7 @@
 #import "RCTFingerprintModule.h"
 #import <React/RCTLog.h>
+#import "FPDiOS_ObjC.h"
+#import "INTULocationManager.h"
 
 @implementation RCTFingerprintModule
 
