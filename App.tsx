@@ -4,8 +4,9 @@ import {Text, SafeAreaView, Button, NativeModules} from 'react-native';
 const {FingerprintModuleIOS} = NativeModules;
 
 const App = () => {
-  const onPress = () => {
-    FingerprintModuleIOS.createFingerprintEvent('testName', 'testLocation');
+  const onPress = async () => {
+    const response = await FingerprintModuleIOS.createFingerprintEvent();
+    console.log(response);
   };
 
   return (
