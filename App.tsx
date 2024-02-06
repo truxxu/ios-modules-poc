@@ -1,9 +1,11 @@
 import React from 'react';
-import {Text, SafeAreaView, Button} from 'react-native';
+import {Text, SafeAreaView, Button, NativeModules} from 'react-native';
+
+const {FingerprintModuleIOS} = NativeModules;
 
 const App = () => {
   const onPress = () => {
-    console.log('test');
+    FingerprintModuleIOS.createFingerprintEvent('testName', 'testLocation');
   };
 
   return (
